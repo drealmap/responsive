@@ -16,20 +16,22 @@
         font-size: 15px;
     }
 
-    input.btn{
+    button.btn{
         color: white;
         background-color: hsl(248, 32%, 49%);
-        padding: 20px 30px;
+        padding: 27px 70px;
         margin: auto;
         width: 90%;
         display: block;
         border-radius: 10px;
+        margin-top: 70px;
+        border-color: hsl(248, 32%, 49%);
+        box-shadow: 0px 6px 0px #4444;    
     }
 
     form{
         margin: 20px auto;
-        margin: 20px auto;
-        width: 90%;
+        width: 85%;
         background-color: white;
         border-radius: 10px;
         padding: 20px 10px;
@@ -41,8 +43,7 @@
         width: 90%;
         padding: 10px 5px;
         border-radius: 5px;
-        box-shadow: none;
-        
+        border: 1px solid #4444;
     }
 
     input::placeholder {
@@ -54,6 +55,7 @@
         border-color: hsl(154, 59%, 51%);
         color: white;
         width: 95%;
+        box-shadow: 0px 3px 0px #4444;
     }
 
     h6{
@@ -61,6 +63,10 @@
         padding: 0 35px;
         text-align: center;
         margin-top: 10px;
+    }
+
+    h6 span{
+        color: red;
     }
 
     h1{
@@ -74,11 +80,16 @@
         display: flex;
         height: 100vh;
         margin: auto;
-        width: 85%;
+        width: 80%;
         justify-content: space-between;
     }
 
-    .leftside, .rightside{
+
+    .leftside{
+        position: relative;
+        top: 25%;
+    }
+    .rightside{
         position: relative;
         top: 10%;
     }
@@ -90,5 +101,19 @@
     .leftside{
         width: 80%;
     }
+
+    h1,p {
+        text-align: left;
+    }
+    
+    h1{
+        letter-spacing: 3px;
+    }
+
+    input.submit{
+        cursor: pointer;
+    }
 }
+
+
 
